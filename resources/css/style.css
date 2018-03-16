@@ -59,68 +59,59 @@ header{
 }
 
 /* banner area */
-
 .banner{
-	background-color: Linen;
+  display: inline-block;
 }
 .banner img{
-	width: 60%;
+	display: inline;
+  width: 60%;
 	float: left;
+  padding: 32px 24px;
+  background-color: Linen;
 }
-.banner-image{
-	margin: 32px 24px;
-}
+
 .banner-text{
-	float: right;
-	margin-top: 80px;
-}
+  float: right;
+	padding: 24px;
+  background-color: Linen;
+  }
 .banner-text h1{
 	color: DarkGrey;
 	font-size: 1.5rem;
 	font-weight: 800;
 }
+.banner-text h3{
+  font-size: 1rem;
+  font-weight: normal;
+}
 
 
-/* main information */
-.main-information{
-	position: relative;
-  top: 32px;
-  display: inline;
-  background-color: white;
-}
-.information-image{
-  position: relative;
-  left: 24px;
-  top: 32px;
-}
-.information-image .practicing{
-  width: 60%;
-  float: left;
-}
-.information-text{
-  float: left;
-  margin-top: 32px;
-}
-.information-right{
-  width: 40%;
-  float: right;
-  position: relative;
-  top: 32px;
-  left: 24px;
-}
-.frames{
-width: 40%;
-}
-.img{
-  float:left;
-  height: auto;
-  width: 35%;
-}
+
+
+
+
+
+
 /* start learning */
-'.container{
+#container{
   display: flex;
-  justify-content: flex-start;
-  flex-flow: row wrap;
-  position: relative;
-  top: 32px;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  background-color: Linen;
+}
+#container h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.item{
+  background-color: white;
+
+}
+.item h3{
+  padding:16px
+}
+.item p{
+  padding:16px;
 }
