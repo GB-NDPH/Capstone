@@ -83,5 +83,44 @@ header{
 
 /* main information */
 .main-information{
-	margin-top: 24px;
+	position: relative;
+  top: 32px;
+  display: inline;
+  background-color: white;
+}
+.information-image{
+  position: relative;
+  left: 24px;
+  top: 32px;
+}
+.information-image .practicing{
+  width: 60%;
+  float: left;
+}
+.information-text{
+  float: left;
+  margin-top: 32px;
+}
+.information-right{
+  width: 40%;
+  float: right;
+  position: relative;
+  top: 32px;
+  left: 24px;
+}
+.frames{
+width: 40%;
+}
+.img{
+  float:left;
+  height: auto;
+  width: 35%;
+}
+/* start learning */
+'.container{
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  position: relative;
+  top: 32px;
 }
