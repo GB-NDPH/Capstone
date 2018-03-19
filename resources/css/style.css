@@ -4,6 +4,9 @@ html{
 	font-size: 18px;
 	color: DimGrey;
 }
+.left{
+  text-align: left;
+}
 
 
 /* header */
@@ -98,20 +101,37 @@ header{
   justify-content:space-between;
   flex-wrap: wrap;
   background-color: Linen;
+  padding-left: 72px;
+  padding-right: 72px;
 }
-#container h1{
+.courses{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.courses h1{
+  display: flex;
+  align-items: center;
   margin-top: 32px;
   margin-bottom: 32px;
+  font-size: 1rem;
 }
+
 .item{
   background-color: white;
-
+  padding:32px;
+  width: 30%;
+}
+.item img{
+  width: 100%;
+  margin: auto;
+  height: auto;
 }
 .item h3{
-  padding:16px
+  font-size: 0.5rem;
+  line-height: 8px;
 }
 .item p{
-  padding:16px;
+  padding-left:16px;
+  font-size: 0.5rem;
 }
